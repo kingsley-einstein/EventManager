@@ -1,0 +1,3 @@
+The client side for an Event Manager app...
+
+## 100 days of code..

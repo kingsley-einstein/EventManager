@@ -1,0 +1,30 @@
+.bar {
+    background-color: rgba(160, 0, 200, 1);
+    width: 100vw;
+    padding: 12px;
+}
+
+@media screen and (orientation: portrait) {
+    .link {
+        display: none;
+    }
+
+    .hamburger {
+        background: transparent;
+    }
+
+    .hamburger div {
+        background-color: white;
+        width: 20px;
+        height: 2px;
+        margin: 4px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .link {
+        text-decoration: none;
+        color: white;
+        padding: 12px 10px;
+    }
+}
